@@ -8,6 +8,23 @@
 
 import UIKit
 
+class CalorieCounter {
+    
+    let maxDailyCalories = 2200
+    
+    let caloriesPerBurger = 550
+    
+    private var totalCaloriesConsumedToday = 0
+    
+    func add(caloriesToAdd: Int) {
+        totalCaloriesConsumedToday += caloriesToAdd
+    }
+    
+    var hamburgersICanStillEatToday: Int {
+        return (maxDailyCalories - totalCaloriesConsumedToday) / caloriesPerBurger
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

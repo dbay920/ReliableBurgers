@@ -11,6 +11,12 @@ import XCTest
 
 class ReliableBurgersTests: XCTestCase {
     
+    func testHamburgersICanStillEatTodayReturnsWithinRange() {
+        let counter = CalorieCounter()
+        XCTAssert(counter.hamburgersICanStillEatToday <= 4, "we should NOT recommend eating more than four hamburgers a day!")
+        XCTAssert(counter.hamburgersICanStillEatToday >= 0)
+    }
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.

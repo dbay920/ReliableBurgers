@@ -14,6 +14,7 @@
 		E70D52AC202CAB690076FA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E70D52AA202CAB690076FA70 /* LaunchScreen.storyboard */; };
 		E70D52B7202CAB690076FA70 /* ReliableBurgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D52B6202CAB690076FA70 /* ReliableBurgersTests.swift */; };
 		E70D52C2202CAB690076FA70 /* ReliableBurgersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D52C1202CAB690076FA70 /* ReliableBurgersUITests.swift */; };
+		E70D52CF202CABE30076FA70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70D52A3202CAB690076FA70 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -268,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70D52CF202CABE30076FA70 /* ViewController.swift in Sources */,
 				E70D52B7202CAB690076FA70 /* ReliableBurgersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
